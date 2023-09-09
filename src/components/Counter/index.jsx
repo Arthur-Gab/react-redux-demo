@@ -6,7 +6,7 @@ import {
 	incrementByAmount,
 	decrementByAmount,
 	selectCount,
-} from './counterReducer.slice';
+} from './counterSlice';
 
 const Counter = () => {
 	const counter = useSelector(selectCount);

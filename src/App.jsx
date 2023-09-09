@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Auth from './components/Auth';
 import UserProfile from './components/UserProfile';
 import { useSelector } from 'react-redux';
-import { selectAuth } from './components/Auth/AuthReducer.slice';
+import { selectAuth } from './components/Auth/authSlice';
 
 function App() {
 	const userAuth = useSelector(selectAuth);
